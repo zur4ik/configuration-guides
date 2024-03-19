@@ -7,6 +7,6 @@
 * [🖌️ Styling terminal](basic-configuration/styling-terminal.md)
 * [🧩 Installing Plugins](basic-configuration/installing-plugins.md)
 
-## GIT Like A Pro
+## Bash Completions
 
-* [Git Flow AVH](git-like-a-pro/git-flow-avh.md)
+* [Git Flow AVH](bash-completions/git-flow-avh.md)
