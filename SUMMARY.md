@@ -1,6 +1,6 @@
 # Table of contents
 
-## 🛠️ Basic Configuration
+## Basic Configuration
 
 * [🖐️ Introduction](README.md)
 * [⬇️ Installing terminal app](basic-configuration/installing-terminal-app.md)
