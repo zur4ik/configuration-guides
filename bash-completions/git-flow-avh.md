@@ -4,7 +4,7 @@ description: >-
   strategy for managing Git branches.
 ---
 
-# Git Flow AVH
+# 🍒 Git Flow AVH
 
 Git Flow AVH is as enhanced collection of Git extensions to provide high-level repository operations for Vincent Driessen's [branching model](http://nvie.com/git-model).&#x20;
 
@@ -18,8 +18,8 @@ brew install git-flow-avh
 
 For activation add it to `~/.zshrc` plugins list:
 
+{% code title="~/.zshrc" %}
 ```bash
-# ~/.zshrc
 
 ...
 
@@ -32,6 +32,7 @@ plugins=(git git-flow-avh)
 
 ...
 ```
+{% endcode %}
 
 ## Git Flow AVH completion
 
@@ -39,8 +40,9 @@ After installation of git flow AVH brew also downloads bash completion script fo
 
 For activation bash completion, simply load all `site-functions` of brew if not done it before:
 
+{% code title="~/.zshrc" %}
 ```bash
-# Very end of ~/.zshrc file
+# Very end of file
 
 ....
 
@@ -52,5 +54,6 @@ if type brew &>/dev/null; then
 fi
 
 ```
+{% endcode %}
 
 After restarting terminal, or simply typing `source ~/.zshrc` will give you bash completion for git flow AVH

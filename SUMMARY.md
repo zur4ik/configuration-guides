@@ -10,4 +10,4 @@
 
 ## Bash Completions
 
-* [Git Flow AVH](bash-completions/git-flow-avh.md)
+* [🍒 Git Flow AVH](bash-completions/git-flow-avh.md)
