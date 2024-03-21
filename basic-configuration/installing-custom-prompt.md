@@ -95,6 +95,7 @@ Customize theme file sections and pallete colors as you like.&#x20;
 
 Customized `basic_prompt.omp.json` file looks like this:
 
+{% code title="basic_prompt.omp.json" %}
 ```json
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
@@ -166,9 +167,11 @@ Customized `basic_prompt.omp.json` file looks like this:
 }
 
 ```
+{% endcode %}
 
 Next we need to activate our custom theme by updating `.zshrc` file `oh-my-zsh` activation section:
 
+{% code title="~/.zshrc" %}
 ```bash
 # -- set oh-my-posh prompt theme (skip apple terminal)
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
@@ -176,6 +179,7 @@ if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh --config ~/.dotfiles/oh-my-posh/themes/basic_prompt.omp.json)"
 fi
 ```
+{% endcode %}
 
 #### **Done!**&#x20;
 

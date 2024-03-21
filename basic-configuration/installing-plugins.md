@@ -26,8 +26,8 @@ Net you need to configure zplug to autoload plugins on session start.
 
 Configuring zplug is done vie `.zshrc` file in home directory
 
-```
-# ~/.zshrc
+{% code title="~/.zshrc" %}
+```bash
 export ZSH=~/.oh-my-zsh
 
 # Zplug Config
@@ -51,6 +51,7 @@ if ! zplug check --verbose; then
 fi
 
 ```
+{% endcode %}
 
 
 
@@ -62,11 +63,13 @@ Add syntax highlighting with installing zplug plugin.
 
 Add source in `~/.zshrc` zplug plugins section
 
+{% code title="~/.zshrc" %}
 ```bash
 # -- zplug plugins (if you want additional plugins add lines in this section)
 ...
 zplug "zdharma/fast-syntax-highlighting", as:plugin, defer:2
 ```
+{% endcode %}
 
 
 
@@ -78,8 +81,10 @@ Get suggestions and completion based on your history with [zsh-autosuggestions](
 
 Add plugin source in `~/.zshrc` zplug plugins section
 
+{% code title="" %}
 ```bash
 # -- zplug plugins (if you want additional plugins add lines in this section)
 ...
 zplug "zsh-users/zsh-autosuggestions", as:plugin, defer:2
 ```
+{% endcode %}
