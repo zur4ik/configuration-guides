@@ -54,7 +54,7 @@ After downloading theme, set it in iTerm Preferences:
 Pro tip: If you don’t like this theme, you can probably find your favorite theme here: [https://iterm2colorschemes.com](https://iterm2colorschemes.com/)
 {% endhint %}
 
-###
+
 
 ### Hide Dock icon
 
